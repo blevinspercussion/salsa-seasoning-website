@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.vertical-line {
+    border-left: 5px solid black;
+    min-height: 20vh;
+}
+
+.logo {
+    max-height: 25vh;
+}
