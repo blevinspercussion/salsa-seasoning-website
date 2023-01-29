@@ -6,3 +6,36 @@ const rickHamburger = document.getElementById('rick-menu-button');
 const mimiNav = document.getElementById('mimi-nav');
 const rickNav = document.getElementById('rick-nav');
 
+mimiHamburger.addEventListener('click', () => {
+    if (rickNav.classList.contains('rick-nav-shown')) {
+        rickNav.classList.remove('rick-nav-shown');
+        rickNav.classList.add('rick-nav-hidden');
+        rickHamburger.src = './media/pics/hamburger.png'
+    }
+    if (mimiNav.classList.contains('mimi-nav-shown')) {
+        mimiNav.classList.remove('mimi-nav-shown');
+        mimiNav.classList.add('mimi-nav-hidden');
+        mimiHamburger.src = './media/pics/hamburger.png';
+    } else {
+        mimiNav.classList.remove('mimi-nav-hidden');
+        mimiNav.classList.add('mimi-nav-shown');
+        mimiHamburger.src = './media/pics/exit.svg';
+    }
+})
+
+rickHamburger.addEventListener('click', () => {
+    if (mimiNav.classList.contains('mimi-nav-shown')) {
+        mimiNav.classList.remove('mimi-nav-shown');
+        mimiNav.classList.add('mimi-nav-hidden');
+        mimiHamburger.src = './media/pics/hamburger.png';
+    }
+    if (rickNav.classList.contains('rick-nav-shown')) {
+        rickNav.classList.remove('rick-nav-shown');
+        rickNav.classList.add('rick-nav-hidden');
+        rickHamburger.src = './media/pics/hamburger.png';
+    } else {
+        rickNav.classList.remove('rick-nav-hidden');
+        rickNav.classList.add('rick-nav-shown');
+        rickHamburger.src = './media/pics/exit.svg';
+    }
+})
