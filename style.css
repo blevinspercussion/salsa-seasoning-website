@@ -2,11 +2,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 80vw;
     background-color: white;
     width: 100vw;
+    height: 20vh;
     border: 2px solid black;
     margin-bottom: 2em;
+    position: fixed;
+    top: 0%;
 }
 
 .vertical-line {
@@ -25,6 +27,7 @@ body {
     align-items: center;
     justify-content: center;
     overflow-x: hidden;
+    margin-top: 22vh;
 }
 
 .banner-image {
@@ -66,4 +69,47 @@ body {
     background: white;
     font-size: 1.5em;
     margin-left: 1em;
+}
+
+nav {
+    position: fixed;
+    width: 25vw;
+    background-color: white;
+    height: 75vh;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+.mimi-nav-shown {
+    left: -5px;
+    top: 15vh;
+}
+
+#mimi-menu {
+    list-style: none;
+    font-size: xx-large;
+}
+
+#mimi-menu li {
+    padding: 1em;
+    margin-left: 0em;
+}
+
+.rick-nav-shown {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    right: 0vw;
+    top: 15vh;
+}
+
+#rick-menu {
+    list-style: none;
+    font-size: xx-large;
+    margin-right: 1em;
+}
+
+#rick-menu li {
+    padding: 1em;
 }
