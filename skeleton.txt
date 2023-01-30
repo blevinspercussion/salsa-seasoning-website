@@ -1,0 +1,6 @@
+Home page content:
+    Header
+        logo, menu
+
+    content
+        
