@@ -142,6 +142,15 @@ body {
     text-align: center;
 }
 
+.faded-out {
+    opacity: 0;
+}
+
+.faded-in {
+    opacity: 1;
+    transition: 1.0;
+}
+
 .section1 h2 {
     position: absolute;
     font-size: 3em;

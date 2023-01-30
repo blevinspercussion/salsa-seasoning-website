@@ -55,6 +55,8 @@ const hidePopup = () => {
 
 
 body.onload = () => {
+    document.getElementById('hero-text').classList.add('faded-in');
+    document.getElementById('hero-text').classList.remove('faded-out');
     setTimeout(() => {
         overlay.classList.remove('overlay-hidden');
         overlay.classList.add('overlay-visible');
