@@ -1,6 +1,5 @@
-Home page content:
-    Header
-        logo, menu
+Horizontal menu under header for both brands
 
-    content
-        
+Create separate 'about' page with full about info
+Separate 'about' pages for each of two brands
+Create intersection observer animations for homepage elements
