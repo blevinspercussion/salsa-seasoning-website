@@ -94,3 +94,14 @@ nav {
     margin-left: 1em;
     font-size: large;
 }
+
+.products {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}

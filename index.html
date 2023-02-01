@@ -11,41 +11,14 @@
     <script defer src="./script.js"></script>
     <title>Mimi's Kitchen and Seasoning Emporium/Uncle Rick's Salsa</title>
 </head>
-<header>
-    <img class="hamburger" id="mimi-menu-button" src="./media/pics/hamburger.png" alt="mimi's kitchen menu button">
-    <a href="#"><img class="logo" src="./media/pics/mimis_kitchen_logo.png" alt="mimi's kitchen logo"></a>
-    <div class="vertical-line"></div>
-    <a href="./rick/rickhome.html"><img class="logo rick-logo" src="./media/pics/ricks_salsa_logo.png" alt="rick's salsa logo"></a>
-    <img class="hamburger" id="rick-menu-button" src="./media/pics/hamburger.png" alt="rick's salsa menu button">
-</header>
-<nav id="mimi-nav" class="mimi-nav-hidden">
-    <div>
-        <img class="logo" src="./media/pics/mimis_kitchen_logo.png" alt="mimi's kitchen logo">
-    </div>
-    <ul id="mimi-menu">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Seasonings</a></li>
-        <li><a href="#">Spice Blends</a></li>
-        <li><a href="#">Recipes</a></li>
-    </ul>
-</nav>
-<nav id="rick-nav" class="rick-nav-hidden">
-    <div>
-        <img class="logo rick-logo" src="./media/pics/ricks_salsa_logo.png" alt="rick's salsa logo">
-    </div>
-    <ul id="rick-menu">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Salsas</a></li>
-        <li><a href="#">Seeds</a></li>
-        <li><a href="#">Recipes</a></li>
-    </ul>
-</nav>
-<body id="body  ">
+<body>
+    <desktop-header class="header"></desktop-header>
+
     <section class="section1">
         <img class="banner-image" src="./media/pics/spice_garden.jpg" alt="spice garden">
         <h2 id="hero-text" class="faded-out">Handcrafted seasonings, spice blends, and salsas made with fresh ingredients from our garden in the hills of North Georgia</h2>
     </section>
-    <section id="about" class="pic-and-text hidden">
+    <section id="about" class="pic-and-text">
         <img class="side-image" src="./media/pics/couple_on_beach.jpg" alt="definitely not rick and sheila on the beach">
         <div class="text-div">
             <h2>
@@ -62,7 +35,7 @@
             </p>
         </div>
     </section>
-    <section class="pic-and-text hidden">
+    <section class="pic-and-text">
         <div class="text-div">
             <h2>
                 Where To Find Us
