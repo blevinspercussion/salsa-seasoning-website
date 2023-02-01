@@ -126,10 +126,16 @@ header {
 
 .logo {
     height: 25vh;
+    transition: 0.5s;
 }
 
 .logo .rick-logo {
     height: 29vh;
+}
+
+.logo:hover {
+    filter: drop-shadow(5px 5px 5px black);
+    transition: 0.5s;
 }
 
 body {
