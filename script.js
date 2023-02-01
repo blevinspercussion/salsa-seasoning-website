@@ -13,7 +13,7 @@ class DesktopHeader extends HTMLElement {
     <div class="vertical-line"></div>
     <a href="./rick/rickhome.html"><img class="logo rick-logo" src="./media/pics/ricks_salsa_logo.png" alt="rick's salsa logo"></a>
     <img class="hamburger" id="rick-menu-button" src="./media/pics/hamburger.png" alt="rick's salsa menu button">
-<nav id="mimi-nav" class="mimi-nav-hidden">
+<nav id="mimi-nav" class="nav-side mimi-nav-hidden">
     <div>
         <img class="logo" src="./media/pics/mimis_kitchen_logo.png" alt="mimi's kitchen logo">
     </div>
@@ -24,7 +24,7 @@ class DesktopHeader extends HTMLElement {
         <li><a href="#">Recipes</a></li>
     </ul>
 </nav>
-<nav id="rick-nav" class="rick-nav-hidden">
+<nav id="rick-nav" class="nav-side rick-nav-hidden">
     <div>
         <img class="logo rick-logo" src="./media/pics/ricks_salsa_logo.png" alt="rick's salsa logo">
     </div>
@@ -35,6 +35,7 @@ class DesktopHeader extends HTMLElement {
         <li><a href="#">Recipes</a></li>
     </ul>
 </nav>
+
         `
     }
 }
