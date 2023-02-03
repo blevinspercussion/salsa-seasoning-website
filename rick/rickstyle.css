@@ -130,10 +130,19 @@ nav {
 }
 
 .product-image {
-    height: 25vh;
+    height: 20vh;
 }
 
 .product-text {
     margin-left: 3em;
     font-size: 1.25em;
+}
+
+.title-text {
+    align-self: center;
+    font-size: 3em;
+    background-color: white;
+    padding: 1em;
+    border-radius: 15px;
+    border: 2px solid black;
 }
