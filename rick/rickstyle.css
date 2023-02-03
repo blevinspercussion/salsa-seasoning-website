@@ -9,7 +9,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--accent-color1);
+    /* background-color: var(--accent-color1); */
 }
 
 header {
@@ -53,7 +53,7 @@ nav {
     max-width: 15vw;
     height: 100vh;
     position: fixed;
-    background-color: var(--accent-color1);
+    /* background-color: var(--accent-color1); */
 }
 
 .logo {
@@ -116,16 +116,20 @@ nav {
     justify-content: center;
     max-width: 85vw;
     flex-wrap: wrap;
+    background-color: white;
+    margin-right: 3em;
 }
 
 .product-card {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 23vw;
+    max-width: 17vw;
     max-height: 42vh;
     min-height: 30vh;
     margin: 1em;
+    border: none;
 
 }
 
@@ -135,12 +139,12 @@ nav {
 
 .product-text {
     margin-left: 3em;
-    font-size: 1.25em;
+    font-size: 1em;
 }
 
 .title-text {
     align-self: center;
-    font-size: 3em;
+    font-size: 2em;
     background-color: white;
     padding: 1em;
     border-radius: 15px;
