@@ -10,11 +10,27 @@ body {
     margin: 0;
     padding: 0;
     /* background-color: var(--accent-color1); */
+    height: 500vh;
 }
 
 header {
     /* max-height: fit-content; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: white;
+    position: fixed;
+    width: 100vw;
+    border-bottom: 2px solid black;
+    height: 17vh;
+    margin-top: -0.5em;
+}
+
+#hamburger {
+    align-self: flex-end;
+    margin-left: 4em;
+    max-height: 30px;
+    margin-bottom: 2em;
 }
 
 header h1 {
@@ -53,7 +69,15 @@ nav {
     max-width: 15vw;
     height: 100vh;
     position: fixed;
+    transition: 0.5s;
+    left: 0vw;
+    top: 17vh;
     /* background-color: var(--accent-color1); */
+}
+
+.hidden-element {
+    transition: 0.5s;
+    left: -25vw;
 }
 
 .logo {
@@ -69,6 +93,7 @@ nav {
     color: black;
     align-items: flex-end;
     justify-content: center;
+    margin-top: 10vh;
 }
 
 .pic-and-text {
@@ -149,4 +174,9 @@ nav {
     padding: 1em;
     border-radius: 15px;
     border: 2px solid black;
+    position: sticky;
+    top: 0px;
+    margin-top: 5vh;
+    width: 12vw;
+    text-align: center;
 }
