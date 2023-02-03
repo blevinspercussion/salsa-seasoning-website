@@ -175,7 +175,7 @@ nav {
     border-radius: 15px;
     border: 2px solid black;
     position: sticky;
-    top: 0px;
+    top: 2vh;
     margin-top: 5vh;
     width: 12vw;
     text-align: center;
