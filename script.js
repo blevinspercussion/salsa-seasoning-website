@@ -29,10 +29,10 @@ class DesktopHeader extends HTMLElement {
         <img class="logo rick-logo" src="./media/pics/ricks_salsa_logo.png" alt="rick's salsa logo">
     </div>
     <ul id="rick-menu">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Salsas</a></li>
-        <li><a href="#">Seeds</a></li>
-        <li><a href="#">Recipes</a></li>
+        <li><a href="./rick/rickhome.html#about-section">About</a></li>
+        <li><a href="./rick/rickhome.html#salsas">Salsas</a></li>
+        <li><a href="./rick/rickhome.html#seeds">Seeds</a></li>
+        <li><a href="./rick/rickhome.html#recipes">Recipes</a></li>
     </ul>
 </nav>
 
